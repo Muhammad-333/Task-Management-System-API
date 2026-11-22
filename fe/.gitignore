@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Environment variables (ignores .env, keeps .env.example)
+.env
+
+# Vite production build
+dist/
+
+# Logs
+*.log
