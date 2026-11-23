@@ -10,7 +10,10 @@ export function createApp(dependencies) {
   app.use(express.json({ limit: "32kb" }));
 
   app.use(cors({
-  origin: "http://localhost:5173"
+  origin: [
+    "http://localhost:5173",
+    "https://task-management-system-api-backend-team3.vercel.app"
+  ]
 }));
 
   app.get("/health", (req, res) =>
