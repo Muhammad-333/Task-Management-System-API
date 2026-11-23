@@ -17,7 +17,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --env-file=.env src/server.js",
+    "start": "node src/server.js",
     "dev": "node --watch --env-file=.env src/server.js"
   },
   "keywords": [],
